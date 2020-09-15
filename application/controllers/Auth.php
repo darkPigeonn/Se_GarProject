@@ -10,16 +10,8 @@ class Auth extends CI_Controller
 		
 	}
 	public function index() {
-		$this->form_validation->set_rules('userName','User Name','required');
-
-		$this->form_validation->set_rules('password','password','required');
 		
-		if($this->form_validation->run() ==  false) {
-			$this->load->view('auth/index');
-		}
-		else{
-			$this->_login();
-		}
+			$this->load->view('adminBaru/welcome');
 		
 
 	}

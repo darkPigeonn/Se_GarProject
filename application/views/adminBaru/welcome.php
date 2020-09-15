@@ -5,12 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="<?php echo base_url('assets/admin/assets/bootstrap/css/bootstrap.min.css')?>;">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/admin/assets/fonts/font-awesome.min.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/admin/assets/fonts/simple-line-icons.min.css');?>" >
+    <link rel="stylesheet" href="<?php echo base_url('assets/admin/assets/css/styles.min.css');?>">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" crossorigin="anonymous">
 </head>
 
@@ -27,7 +35,7 @@
             </div>
         </div>
     </nav>
-    <header class="text-center masthead" style="background-image: url(&quot;assets/img/sgar-2.jpg&quot;);height: 100%;width: auto;display: block;padding: 206px;">
+    <header class="text-center masthead" style="background-image: url(<?php echo base_url('assets/admin/assets/img/sgar-2.jpg')?>);background-size: cover;height: 100%;width: auto;display: block;padding: 206px;">
         <div class="intro-body">
             <div class="container">
                 <div class="row text-center">
@@ -42,12 +50,12 @@
     </header>
     <div class="map-clean"></div>
     <footer style="height: -18px;"></footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url('assets/js/jquery.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js')?>"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="<?php echo base_url('assets/js/script.min.js')?>"></script>
 </body>
 
 </html>
