@@ -47,7 +47,8 @@
                         <p class="text-white intro-text" style="text-align: center;height: 53px;">Jalan Merdeka Timur 4-6 Garum, Blitar</p>
                     </div>
                 </div>
-            </div><button class="btn text-center" type="button" style="background-color: #b3afaf;font-size: 21px;filter: contrast(200%);" onclick="window.location.href='<?= base_url();?>welcome/login'">LOGIN</button></div>
+            </div><a class="btn text-center" type="button" style="background-color: #b3afaf;font-size: 21px;filter: contrast(200%);" href='<?= base_url();?>welcome/login'">LOGIN </a></div>
+
     </header>
     <div class="map-clean"></div>
     <footer style="height: -18px;"></footer>

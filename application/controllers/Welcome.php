@@ -23,6 +23,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome');
 	}
 	public function login(){
+		$this->load->view('templates/header.php');
 		$this->load->view('admin/halamanutama');
 	}
 }
