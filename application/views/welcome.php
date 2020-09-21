@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -46,7 +47,7 @@
                         <p class="text-white intro-text" style="text-align: center;height: 53px;">Jalan Merdeka Timur 4-6 Garum, Blitar</p>
                     </div>
                 </div>
-            </div><button class="btn text-center" type="button" style="background-color: #b3afaf;font-size: 21px;filter: contrast(200%);">LOGIN</button></div>
+            </div><button class="btn text-center" type="button" style="background-color: #b3afaf;font-size: 21px;filter: contrast(200%);" onclick="window.location.href='<?= base_url();?>welcome/login'">LOGIN</button></div>
     </header>
     <div class="map-clean"></div>
     <footer style="height: -18px;"></footer>
