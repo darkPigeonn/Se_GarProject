@@ -38,7 +38,7 @@
                             Home
                         </a>
                         <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li><a href="#">Data Siswa</a></li>
+                            <li><a href="<?= base_url();?>DataSiswa">Data Siswa</a></li>
                             <li><a href="#">Data Keuangan</a></li>
                         </ul>
                     </li>
