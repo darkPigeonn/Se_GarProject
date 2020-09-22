@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>SIA_Seminari</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(). 'assets/adminBaru/bootstrap/css/bootstrap.min.css'?>">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
@@ -13,15 +13,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="<? echo base_url(). 'assets/adminBaru/css/styles.min.css'?>">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
 </head>
 
-<body style="background-image: url(&quot;assets/img/sgar-1.jpg&quot;);background-size: cover;">
-    <div class="col"><button class="btn btn-primary" type="button" style="background-color: rgb(248,250,249);font-size: 20px;font-family: 'Archivo Black', sans-serif;">kembali</button></div>
+<body style="background-image: url(<? php echo base_url('assets/adminBaru/img/sgar-1.jpg')?>);background-size: cover;">
+    <div class="col"><a class="btn btn-primary" type="button" style="background-color: rgb(248,250,249);font-size: 20px;font-family: 'Archivo Black', sans-serif;" href='<?=base_url();?>dataKeuangan/kembali'">KEMBALI</a></div>
     <div class="col text-center"><strong style="color: rgb(14,13,13);background-color: #ffffff;font-size: 33px;">DATA KEUANGAN SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong></div>
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
     <div class="container">
@@ -39,10 +39,10 @@
                         <table class="table table tablesorter" id="ipi-table">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th class="text-center">&nbsp;no</th>
-                                    <th class="text-center sorter-false">nama</th>
-                                    <th class="text-center filter-false">tagihan bulan</th>
-                                    <th class="text-center filter-false sorter-false">status pembayaran</th>
+                                    <th class="text-center">&nbsp;NO</th>
+                                    <th class="text-center sorter-false">NAMA</th>
+                                    <th class="text-center filter-false">TAGIHAN BULANAN</th>
+                                    <th class="text-center filter-false sorter-false">STATUS PEMBAYARAN</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -177,7 +177,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="<?php echo base_url ('assets/js/script.min.js')?>"></script>
 </body>
 
 </html>

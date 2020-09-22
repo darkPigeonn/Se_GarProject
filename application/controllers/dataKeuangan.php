@@ -4,6 +4,7 @@ class dataKeuangan extends CI_Controller{
 public function index()
 	{
 		$this->load->view('dataKeuangan');
+		$this->load->view('admin/dataKeuangan');
 	}
 	public function kembali(){
 		$this->load->view('admin/halamanutama');

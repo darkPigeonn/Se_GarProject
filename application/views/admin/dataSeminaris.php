@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>SIA_Seminari</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(). 'assets/adminBaru/bootstrap/css/bootstrap.min.css'?>">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(). 'assets/adminBaru/css/styles.min.css'?>">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
 </head>
 
-<body style="background-image: url(&quot;assets/img/sgar-2.jpg&quot;);background-size: cover;">
+<body style="background-image: url(<?php echo base_url ('assets/adminBaru/img/sgar-2.jpg')?>);background-size: cover;">
     <div class="col"><a class="btn btn-primary" type="button" style="background-color: rgb(249,252,251);font-size: 20px;font-family: 'Archivo Black', sans-serif;" href='<?=base_url();?>dataSeminaris/kembali'">KEMBALI</a></div>
     <div class="col text-center"><strong style="background-color: #fffefe;color: rgb(8,8,8);font-size: 33px;">DATA SEMINARIS ST. VINCENTIUS A PAULO GARUM</strong></div>
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
@@ -28,7 +28,7 @@
         <!-- Start: TableSorter -->
         <div class="card" id="TableSorterCard">
             <div class="row table-topper align-items-center" style="height: 46px;">
-                <div class="col-4 text-left" style="margin: 0px;padding: 5px 15px;"><button class="btn btn-primary btn-sm reset" type="button" style="padding: 5px;margin: 2px;">Reset PENCARIAN</button><button class="btn btn-warning btn-sm" id="zoom_in" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-plus"></i></button>
+                <div class="col-4 text-left" style="margin: 0px;padding: 5px 15px;"><button class="btn btn-primary btn-sm reset" type="button" style="padding: 5px;margin: 2px;">RESET PENCARIAN</button><button class="btn btn-warning btn-sm" id="zoom_in" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-plus"></i></button>
                     <button
                         class="btn btn-warning btn-sm" id="zoom_out" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-minus"></i></button>
                 </div>
@@ -69,10 +69,10 @@
                     </div>
                 </div>
                 <div class="col text-center">
-                    <div class="btn-group" role="group"><button class="btn btn-primary bg-info border rounded border-dark" type="button" style="background-color: rgb(249,253,251);font-family: 'Archivo Black', sans-serif;margin: 10px;">tambah data</button><button class="btn btn-primary bg-info border rounded border-dark"
-                            type="button" style="font-family: 'Archivo Black', sans-serif;margin: 9px;background-color: rgb(245,247,246);">baca data&nbsp;</button><button class="btn btn-primary bg-info border rounded border-dark" type="button" style="font-family: 'Archivo Black', sans-serif;margin: 11px;background-color: rgb(248,249,249);">edit data</button>
+                    <div class="btn-group" role="group"><button class="btn btn-primary bg-info border rounded border-dark" type="button" style="background-color: rgb(249,253,251);font-family: 'Archivo Black', sans-serif;margin: 10px;">TAMBAH DATA</button><button class="btn btn-primary bg-info border rounded border-dark"
+                            type="button" style="font-family: 'Archivo Black', sans-serif;margin: 9px;background-color: rgb(245,247,246);">BACA DATAa&nbsp;</button><button class="btn btn-primary bg-info border rounded border-dark" type="button" style="font-family: 'Archivo Black', sans-serif;margin: 11px;background-color: rgb(248,249,249);">EDIT DATA</button>
                         <button
-                            class="btn btn-primary text-center bg-info border rounded border-dark" type="button" style="font-family: 'Archivo Black', sans-serif;margin: 9px;background-color: rgb(245,247,246);">hapus data</button>
+                            class="btn btn-primary text-center bg-info border rounded border-dark" type="button" style="font-family: 'Archivo Black', sans-serif;margin: 9px;background-color: rgb(245,247,246);">HAPUS DATA</button>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="<?php echo base_url('assets/js/script.min.js')?>"></script>
 </body>
 
 </html>

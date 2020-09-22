@@ -4,6 +4,7 @@ class dataSeminaris extends CI_Controller{
 public function index()
 	{
 		$this->load->view('dataSeminaris');
+		$this->load->view('admin/dataSeminaris');
 	}
 	public function kembali(){
 		$this->load->view('admin/halamanutama');
