@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
-
+<html><!-- 
+revisi :
+ngeling assets yang di header masih salah -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -13,7 +14,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css"> <!-- ini belum di link -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css">
@@ -22,6 +23,7 @@
 
 <body style="opacity: 1;filter: blur(0px) brightness(102%);background-image: url(&quot;assets/img/sgar-1.jpg&quot;);background-size: cover;"><a class="btn btn-primary" type="button" style="background-color: rgb(249,240,239);font-family: 'Archivo Black', sans-serif;font-size: 20px;width: 134px;height: 62px;" href='<?= base_url();?>dataSiswa/kembali'">KEMBALI</a>
     <div class="col text-center" style="font-size: 33px;height: 47px;"><strong class="text-center bg-white" style="color: rgb(18,16,16);">DATA SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong></div>
+    <!-- link gambar masih salah -->
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
     <div class="container">
         <!-- Start: TableSorter -->
