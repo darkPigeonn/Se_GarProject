@@ -8,6 +8,6 @@ class DataSiswa extends CI_Controller{
 	}
 	public function kembali(){
 		$this->load->view('admin/halamanutama');
-	}	
+	}
 }
 

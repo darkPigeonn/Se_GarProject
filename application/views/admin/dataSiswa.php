@@ -21,7 +21,7 @@ ngeling assets yang di header masih salah -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
 </head>
 
-<body style="opacity: 1;filter: blur(0px) brightness(102%);background-image: url(<?php echo base_url('assets/adminBaru/img/sgar-1.jpg')?>);background-size: cover;"><a class="btn btn-primary" type="button" style="background-color: rgb(249,240,239);font-family: 'Archivo Black', sans-serif;font-size: 20px;width: 134px;height: 62px;" href='<?= base_url();?>dataSiswa/kembali'">KEMBALI</a>
+<body style="opacity: 1;filter: blur(0px) brightness(102%);background-image: url(<?php echo base_url('assets/adminBaru/img/sgar-1.jpg')?>);background-size: cover;"><a class="btn btn-primary" type="button" style="background-color: rgb(249,240,239);font-family: 'Archivo Black', sans-serif;font-size: 20px;width: 134px;height: 62px;" href='<?= base_url();?>dataSiswa/kembali'>KEMBALI</a>
     <div class="col text-center" style="font-size: 33px;height: 47px;"><strong class="text-center bg-white" style="color: rgb(18,16,16);">DATA SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong></div>
   
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
