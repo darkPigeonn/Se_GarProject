@@ -20,15 +20,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
 </head>
 
-<body style="background-image: url(&quot;assets/img/sgar-1.jpg&quot;);background-size: cover;">
-    <div class="col"><button class="btn btn-primary" type="button" style="background-color: rgb(248,250,249);font-size: 20px;font-family: 'Archivo Black', sans-serif;">kembali</button></div>
-    <div class="col text-center"><strong style="color: rgb(14,13,13);background-color: #ffffff;font-size: 33px;">DATA KEUANGAN SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong></div>
+<body style="opacity: 1;filter: blur(0px) brightness(102%);background-image: url(&quot;assets/img/sgar-1.jpg&quot;);background-size: cover;"><a class="btn btn-primary" type="button" style="background-color: rgb(249,240,239);font-family: 'Archivo Black', sans-serif;font-size: 20px;width: 134px;height: 62px;" href='<?= base_url();?>dataSiswa/kembali'">KEMBALI</a>
+    <div class="col text-center" style="font-size: 33px;height: 47px;"><strong class="text-center bg-white" style="color: rgb(18,16,16);">DATA SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong></div>
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
     <div class="container">
         <!-- Start: TableSorter -->
         <div class="card" id="TableSorterCard">
             <div class="row table-topper align-items-center">
-                <div class="col-4 text-left" style="margin: 0px;padding: 5px 15px;"><button class="btn btn-primary btn-sm reset" type="button" style="padding: 5px;margin: 2px;">Reset pencarian</button><button class="btn btn-warning btn-sm" id="zoom_in" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-plus"></i></button>
+                <div class="col-4 text-left" style="margin: 0px;padding: 5px 15px;"><button class="btn btn-primary btn-sm reset" type="button" style="padding: 5px;margin: 2px;">reset pencarian</button><button class="btn btn-warning btn-sm" id="zoom_in" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-plus"></i></button>
                     <button
                         class="btn btn-warning btn-sm" id="zoom_out" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-minus"></i></button>
                 </div>
@@ -39,30 +38,38 @@
                         <table class="table table tablesorter" id="ipi-table">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th class="text-center">&nbsp;no</th>
-                                    <th class="text-center sorter-false">nama</th>
-                                    <th class="text-center filter-false">tagihan bulan</th>
-                                    <th class="text-center filter-false sorter-false">status pembayaran</th>
+                                    <th class="text-center">NO</th>
+                                    <th class="text-center sorter-false">NAMA</th>
+                                    <th class="text-center sorter-false">ALAMAT</th>
+                                    <th class="text-center sorter-false">ASAL PAROKI</th>
+                                    <th class="text-center filter-false">ANGKATAN</th>
+                                    <th class="text-center filter-false sorter-false">TAHUN</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="text-center">1</td>
-                                    <td class="text-center">Atanasius Ivanoel</td>
-                                    <td class="text-center">Juli</td>
-                                    <td class="text-center">LUNAS</td>
+                                    <td>1</td>
+                                    <td class="text-center">Atanasius Ivannoel</td>
+                                    <td class="text-center">Jl. Paingan</td>
+                                    <td class="text-center">Ngawi</td>
+                                    <td class="text-center">2014</td>
+                                    <td class="text-center">2014/2015</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">2</td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
+                                    <td>2</td>
+                                    <td class="text-center">Albertus Bayu</td>
+                                    <td class="text-center">Jl. Jalan</td>
+                                    <td class="text-center">Tanjungpinang</td>
+                                    <td class="text-center">2013</td>
+                                    <td class="text-center">2014/2015</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center">3</td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>

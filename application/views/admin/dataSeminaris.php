@@ -20,15 +20,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
 </head>
 
-<body style="background-image: url(&quot;assets/img/sgar-1.jpg&quot;);background-size: cover;">
-    <div class="col"><button class="btn btn-primary" type="button" style="background-color: rgb(248,250,249);font-size: 20px;font-family: 'Archivo Black', sans-serif;">kembali</button></div>
-    <div class="col text-center"><strong style="color: rgb(14,13,13);background-color: #ffffff;font-size: 33px;">DATA KEUANGAN SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong></div>
+<body style="background-image: url(&quot;assets/img/sgar-2.jpg&quot;);background-size: cover;">
+    <div class="col"><a class="btn btn-primary" type="button" style="background-color: rgb(249,252,251);font-size: 20px;font-family: 'Archivo Black', sans-serif;" href='<?=base_url();?>dataSeminaris/kembali'">KEMBALI</a></div>
+    <div class="col text-center"><strong style="background-color: #fffefe;color: rgb(8,8,8);font-size: 33px;">DATA SEMINARIS ST. VINCENTIUS A PAULO GARUM</strong></div>
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
     <div class="container">
         <!-- Start: TableSorter -->
         <div class="card" id="TableSorterCard">
-            <div class="row table-topper align-items-center">
-                <div class="col-4 text-left" style="margin: 0px;padding: 5px 15px;"><button class="btn btn-primary btn-sm reset" type="button" style="padding: 5px;margin: 2px;">Reset pencarian</button><button class="btn btn-warning btn-sm" id="zoom_in" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-plus"></i></button>
+            <div class="row table-topper align-items-center" style="height: 46px;">
+                <div class="col-4 text-left" style="margin: 0px;padding: 5px 15px;"><button class="btn btn-primary btn-sm reset" type="button" style="padding: 5px;margin: 2px;">Reset PENCARIAN</button><button class="btn btn-warning btn-sm" id="zoom_in" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-plus"></i></button>
                     <button
                         class="btn btn-warning btn-sm" id="zoom_out" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-minus"></i></button>
                 </div>
@@ -39,18 +39,18 @@
                         <table class="table table tablesorter" id="ipi-table">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th class="text-center">&nbsp;no</th>
-                                    <th class="text-center sorter-false">nama</th>
-                                    <th class="text-center filter-false">tagihan bulan</th>
-                                    <th class="text-center filter-false sorter-false">status pembayaran</th>
+                                    <th class="text-center">NO</th>
+                                    <th class="text-center sorter-false">NAMA</th>
+                                    <th class="text-center filter-false">ANGKATAN</th>
+                                    <th class="text-center filter-false sorter-false">TAHUN</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td class="text-center">1</td>
                                     <td class="text-center">Atanasius Ivanoel</td>
-                                    <td class="text-center">Juli</td>
-                                    <td class="text-center">LUNAS</td>
+                                    <td class="text-center">2014</td>
+                                    <td class="text-center">2014/2015</td>
                                 </tr>
                                 <tr>
                                     <td class="text-center">2</td>
@@ -66,6 +66,13 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="btn-group" role="group"><button class="btn btn-primary bg-info border rounded border-dark" type="button" style="background-color: rgb(249,253,251);font-family: 'Archivo Black', sans-serif;margin: 10px;">tambah data</button><button class="btn btn-primary bg-info border rounded border-dark"
+                            type="button" style="font-family: 'Archivo Black', sans-serif;margin: 9px;background-color: rgb(245,247,246);">baca data&nbsp;</button><button class="btn btn-primary bg-info border rounded border-dark" type="button" style="font-family: 'Archivo Black', sans-serif;margin: 11px;background-color: rgb(248,249,249);">edit data</button>
+                        <button
+                            class="btn btn-primary text-center bg-info border rounded border-dark" type="button" style="font-family: 'Archivo Black', sans-serif;margin: 9px;background-color: rgb(245,247,246);">hapus data</button>
                     </div>
                 </div>
             </div>
@@ -165,6 +172,7 @@
         <!-- End: TableSorter -->
     </div>
     <!-- End: Data Table with Search Sort Filter and Zoom using  -->
+    <div class="btn-group" role="group"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
