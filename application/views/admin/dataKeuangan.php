@@ -21,14 +21,14 @@
 </head>
 
 <body style="background-image: url(<? php echo base_url('assets/adminBaru/img/sgar-1.jpg')?>);background-size: cover;">
-    <div class="col"><a class="btn btn-primary" type="button" style="background-color: rgb(248,250,249);font-size: 20px;font-family: 'Archivo Black', sans-serif;" href='<?=base_url();?>dataKeuangan/kembali'">KEMBALI</a></div>
+    
     <div class="col text-center"><strong style="color: rgb(14,13,13);background-color: #ffffff;font-size: 33px;">DATA KEUANGAN SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong></div>
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
     <div class="container">
         <!-- Start: TableSorter -->
         <div class="card" id="TableSorterCard">
             <div class="row table-topper align-items-center">
-                <div class="col-4 text-left" style="margin: 0px;padding: 5px 15px;"><button class="btn btn-primary btn-sm reset" type="button" style="padding: 5px;margin: 2px;">Reset pencarian</button><button class="btn btn-warning btn-sm" id="zoom_in" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-plus"></i></button>
+                <div class="col-4 text-left" style="margin: 0px;padding: 5px 15px;"><button class="btn btn-primary btn-sm reset" type="button" style="padding: 5px;margin: 2px;">Reset Pencarian</button><button class="btn btn-warning btn-sm" id="zoom_in" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-plus"></i></button>
                     <button
                         class="btn btn-warning btn-sm" id="zoom_out" type="button" zoomclick="ChangeZoomLevel(-10);" style="padding: 5px;margin: 2px;"><i class="fa fa-search-minus"></i></button>
                 </div>
@@ -177,7 +177,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-    <script src="<?php echo base_url ('assets/js/script.min.js')?>"></script>
+    <script src="<?php echo base_url ('assets/adminBaru/js/script.min.js')?>"></script>
 </body>
 
 </html>

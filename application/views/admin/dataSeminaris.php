@@ -21,7 +21,6 @@
 </head>
 
 <body style="background-image: url(<?php echo base_url ('assets/adminBaru/img/sgar-2.jpg')?>);background-size: cover;">
-    <div class="col"><a class="btn btn-primary" type="button" style="background-color: rgb(249,252,251);font-size: 20px;font-family: 'Archivo Black', sans-serif;" href='<?=base_url();?>dataSeminaris/kembali'">KEMBALI</a></div>
     <div class="col text-center"><strong style="background-color: #fffefe;color: rgb(8,8,8);font-size: 33px;">DATA SEMINARIS ST. VINCENTIUS A PAULO GARUM</strong></div>
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
     <div class="container">
@@ -185,7 +184,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-    <script src="<?php echo base_url('assets/js/script.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/adminBaru/js/script.min.js')?>"></script>
 </body>
 
 </html>

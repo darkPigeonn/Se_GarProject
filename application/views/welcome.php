@@ -32,7 +32,7 @@
         <div class="col text-center"><strong class="shadow-lg" style="font-family: Lora, serif;background-color: #ffffff;color: rgb(14,13,13);font-size: 25px;">SEMINARI MENENGAH ST. VINCENTIUS A PAULO</strong></div>
     </div>
     <div class="col text-center" style="font-family: Cabin, sans-serif;height: 89px;"><strong class="text-center text-dark" style="background-color: #ffffff;font-family: Lora, serif;font-size: 22px;">JALAN MERDEKA TIMUR 4-6 GARUM, BLITAR</strong></div>
-    <div class="col text-center" style="height: 65px;"><a class="btn btn-primary btn-lg text-center border rounded border-dark shadow-lg" type="button" style="background-color: rgb(247,252,250);font-family: 'Archivo Black', sans-serif;margin: 0px;padding: 13px;col: none;margin: 0 auto;" href='<?= base_url();?>welcome/login'">LOGIN</a></div>
+    <div class="col text-center" style="height: 65px;"><a class="btn btn-primary btn-lg text-center border rounded border-dark shadow-lg" type="button" style="background-color: rgb(247,252,250);font-family: 'Archivo Black', sans-serif;margin: 0px;padding: 13px;col: none;margin: 0 auto;" href='<?= base_url();?>admin/login'">LOGIN</a></div>
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
