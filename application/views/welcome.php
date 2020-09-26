@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
 </head>
 
-<body id="page-top" style="background-image: url(<?php echo base_url('assets/adminBaru/img/sgar-3.jpg')?>);background-size: cover;">
+<body style="background-image: url(<?php echo base_url('assets/adminBaru/img/Garum.jpeg')?>);background-size: contain; background-repeat: no-repeat; background-position: center;position: relative;">
     <!-- Start: Map Clean -->
     <div class="map-clean"></div>
     <!-- End: Map Clean -->
@@ -46,7 +46,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-        <script src="<?php echo base_url('assets/js/script.min.js')?>"></script>
+        <script src="<?php echo base_url('assets/adminBaru/js/script.min.js')?>"></script>
 </body>
 
 </html>

@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
 </head>
 
-<body style="background-image: url(<?php echo base_url ('assets/adminBaru/img/sgar-2.jpg')?>);background-size: cover;">
+<body>
     <div class="col text-center"><strong style="background-color: #fffefe;color: rgb(8,8,8);font-size: 33px;">DATA SEMINARIS ST. VINCENTIUS A PAULO GARUM</strong></div>
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
     <div class="container">

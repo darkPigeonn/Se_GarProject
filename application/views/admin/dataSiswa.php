@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html><!-- 
-revisi :
-ngeling assets yang di header masih salah -->
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -21,7 +19,7 @@ ngeling assets yang di header masih salah -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
 </head>
 
-<body style="opacity: 1;filter: blur(0px) brightness(102%);background-image: url(<?php echo base_url('assets/adminBaru/img/sgar-1.jpg')?>);background-size: cover;">
+<body>
     <div class="col text-center" style="font-size: 33px;height: 47px;"><strong class="text-center bg-white" style="color: rgb(18,16,16);">DATA SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong></div>
   
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
