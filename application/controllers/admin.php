@@ -23,8 +23,10 @@ class admin extends CI_Controller {
 		$this->load->view('welcome');
 	}
 	public function login(){
+		$this->load->view('admin/login');
+	}
+	public function halut(){
 		$this->load->view('templates/header.php');
-		$this->load->view('admin/halamanutama');
 	}
 	public function viewdataSiswa()
 	{

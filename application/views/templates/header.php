@@ -46,6 +46,7 @@
                                     <a class="nav-link" href="layout-sidenav-light.html">Modal</a>
                                 </nav>
                             </div>
+                            <a class="nav-link" href= '<?= base_url();?>admin'">Log Out</a>
                         </div>
                     </div>
                 </nav>
