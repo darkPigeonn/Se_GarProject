@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class="col text-center" style="font-size: 33px;height: 47px;"><strong class="text-center bg-white" style="color: rgb(18,16,16);">DATA SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong></div>
+    <strong class="text-center bg-white" style="color: rgb(18,16,16);">DATA SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong>
   
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
     <div class="container">

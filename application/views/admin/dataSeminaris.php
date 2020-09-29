@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <div class="col text-center"><strong style="background-color: #fffefe;color: rgb(8,8,8);font-size: 33px;">DATA SEMINARIS ST. VINCENTIUS A PAULO GARUM</strong></div>
+   <strong style="background-color: #fffefe;color: rgb(8,8,8);font-size: 33px;">DATA SEMINARIS ST. VINCENTIUS A PAULO GARUM</strong>
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
     <div class="container">
         <!-- Start: TableSorter -->

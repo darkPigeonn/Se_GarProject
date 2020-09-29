@@ -27,6 +27,7 @@ class admin extends CI_Controller {
 	}
 	public function halut(){
 		$this->load->view('templates/header.php');
+		$this->load->view('admin/halamanutama.php');
 	}
 	public function viewdataSiswa()
 	{
@@ -40,6 +41,10 @@ class admin extends CI_Controller {
 	public function viewdataSeminaris(){
 		$this->load->view('templates/header.php');
 		$this->load->view('admin/dataSeminaris');
+	}
+	public function laporan(){
+		$this->load->view('templates/header.php');
+		$this->load->view('admin/laporan');
 	}
 }
 

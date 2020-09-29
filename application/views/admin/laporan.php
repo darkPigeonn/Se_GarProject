@@ -22,7 +22,7 @@
 
 <body>
     
-    <strong style="color: rgb(14,13,13);background-color: #ffffff;font-size: 33px;">DATA KEUANGAN SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong>
+   <strong style="color: rgb(14,13,13);background-color: #ffffff;font-size: 33px;">DATA KEUANGAN SISWA SEMINARI ST. VINCENTIUS A PAULO GARUM</strong>
     <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
     <div class="container">
         <!-- Start: TableSorter -->
