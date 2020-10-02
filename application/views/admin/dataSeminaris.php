@@ -12,87 +12,158 @@
     </head>
     <body>
         
-        <div id="layoutSidenav">
-            <div id="layoutSidenav_nav">
-            </div>
-            <div id="layoutSidenav_content">
-                <main>
-                    <div class="container-fluid">
-                        
-                        <div class="card mb-4">
-                            <div class="card-body">
-                                <h1>DATA SEMINARIS ST. VINCENTIUS A PAULO GARUM</h1>
-                            </div>
-                        </div>
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-table mr-1"></i>
-                               DATA SISWA
-                            </div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                        <thead>
-                                            <tr>
-                                                <th>NO</th>
-                                                <th>NAMA</th>
-                                                <th>ALAMAT</th>
-                                                <th>ASAL PAROKI</th>
-                                                <th>ANGKATAN</th>
-                                                <th>TAHUN</th>
-                                            </tr>
-                                        </thead>
-                                        
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Atanasius</td>
-                                                <td>Jl. Paingan</td>
-                                                <td>Ngawi</td>
-                                                <td>2017</td>
-                                                <td>2019/2020</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Ivanoel</td>
-                                                <td>Jl. Aingan</td>
-                                                <td>Ngawi</td>
-                                                <td>2016</td>
-                                                <td>2019/2020</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Albertus</td>
-                                                <td>Jl. Jalan</td>
-                                                <td>Palu</td>
-                                                <td>2019</td>
-                                                <td>2019/2020</td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>Bayu</td>
-                                                <td>Jl. Alan</td>
-                                                <td>Alu</td>
-                                                <td>2018</td>
-                                                <td>2019/2020</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <div class="col text-center">
-                                        <div class="btn-group" role="group">
-                                            <button class="btn btn-primary bg-info border rounded border-dark" type="button" style="background-color: rgb(249,253,251);font-family: 'Archivo Black', sans-serif;margin: 10px;">TAMBAH DATA</button>
-                                            <button class="btn btn-primary bg-info border rounded border-dark" type="button" style="font-family: 'Archivo Black', sans-serif;margin: 9px;background-color: rgb(245,247,246);">BACA DATA&nbsp;</button>
-                                            <button class="btn btn-primary bg-info border rounded border-dark" type="button" style="font-family: 'Archivo Black', sans-serif;margin: 11px;background-color: rgb(248,249,249);">EDIT DATA</button>
-                                            <button class="btn btn-primary text-center bg-info border rounded border-dark" type="button" style="font-family: 'Archivo Black', sans-serif;margin: 9px;background-color: rgb(245,247,246);">HAPUS DATA</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </main>    
-                </div>
-            </div>
-        </div>
+        <!-- Table with panel -->
+<div class="card card-cascade narrower">
+
+  <!--Card image-->
+  <div
+    class="view view-cascade gradient-card-header blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+
+    <div>
+      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+        <i class="fas fa-th-large mt-0"></i>
+      </button>
+      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+        <i class="fas fa-columns mt-0"></i>
+      </button>
+    </div>
+
+    <a href="" class="white-text mx-3">Table name</a>
+
+    <div>
+      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+        <i class="fas fa-pencil-alt mt-0"></i>
+      </button>
+      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+        <i class="far fa-trash-alt mt-0"></i>
+      </button>
+      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+        <i class="fas fa-info-circle mt-0"></i>
+      </button>
+    </div>
+
+  </div>
+  <!--/Card image-->
+
+  <div class="px-4">
+
+    <div class="table-wrapper">
+      <!--Table-->
+      <table class="table table-hover mb-0">
+
+        <!--Table head-->
+        <thead>
+          <tr>
+            <th>
+              <input class="form-check-input" type="checkbox" id="checkbox">
+              <label class="form-check-label" for="checkbox" class="mr-2 label-table"></label>
+            </th>
+            <th class="th-lg">
+              <a>First Name
+                <i class="fas fa-sort ml-1"></i>
+              </a>
+            </th>
+            <th class="th-lg">
+              <a href="">Last Name
+                <i class="fas fa-sort ml-1"></i>
+              </a>
+            </th>
+            <th class="th-lg">
+              <a href="">Username
+                <i class="fas fa-sort ml-1"></i>
+              </a>
+            </th>
+            <th class="th-lg">
+              <a href="">Username
+                <i class="fas fa-sort ml-1"></i>
+              </a>
+            </th>
+            <th class="th-lg">
+              <a href="">Username
+                <i class="fas fa-sort ml-1"></i>
+              </a>
+            </th>
+            <th class="th-lg">
+              <a href="">Username
+                <i class="fas fa-sort ml-1"></i>
+              </a>
+            </th>
+          </tr>
+        </thead>
+        <!--Table head-->
+
+        <!--Table body-->
+        <tbody>
+          <tr>
+            <th scope="row">
+              <input class="form-check-input" type="checkbox" id="checkbox1">
+              <label class="form-check-label" for="checkbox1" class="label-table"></label>
+            </th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <input class="form-check-input" type="checkbox" id="checkbox2">
+              <label class="form-check-label" for="checkbox2" class="label-table"></label>
+            </th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <input class="form-check-input" type="checkbox" id="checkbox3">
+              <label class="form-check-label" for="checkbox3" class="label-table"></label>
+            </th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <input class="form-check-input" type="checkbox" id="checkbox4">
+              <label class="form-check-label" for="checkbox4" class="label-table"></label>
+            </th>
+            <td>Paul</td>
+            <td>Topolski</td>
+            <td>@P_Topolski</td>
+            <td>Paul</td>
+            <td>Topolski</td>
+            <td>@P_Topolski</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <input class="form-check-input" type="checkbox" id="checkbox5">
+              <label class="form-check-label" for="checkbox5" class="label-table"></label>
+            </th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+        <!--Table body-->
+      </table>
+      <!--Table-->
+    </div>
+
+  </div>
+
+</div>
+<!-- Table with panel -->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="<?php echo base_url ('assets/sbadmin/js/scripts.js')?>"></script>

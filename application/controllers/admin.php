@@ -22,9 +22,6 @@ class admin extends CI_Controller {
 	{
 		$this->load->view('halDepan/halamanDepan');
 	}
-	public function login(){
-		$this->load->view('admin/login');
-	}
 	public function halut(){
 		$this->load->view('templates/header.php');
 		$this->load->view('admin/halamanutama.php');
@@ -45,6 +42,9 @@ class admin extends CI_Controller {
 	public function laporan(){
 		$this->load->view('templates/header.php');
 		$this->load->view('admin/laporan');
+	}
+	public function infoKeuangan(){
+		$this->load->view('ortu/infoKeuangan');
 	}
 }
 
