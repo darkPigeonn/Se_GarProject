@@ -12,7 +12,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     
-  <body style="background-image: url(<?php echo base_url('assets/adminBaru/img/Garum.jpeg')?>);background-size: contain; background-repeat: no-repeat; background-position: center;position: relative;">
+  <body style="background :linear-gradient(rgba(0,0,0,0,0.5), rgba(0,0,00.5));background-image: url(<?php echo base_url('assets/adminBaru/img/Garum.jpeg')?>);background-size: contain; background-repeat: no-repeat; background-position: center;position: relative;" >
 
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">SIA SEMINARI</a>
