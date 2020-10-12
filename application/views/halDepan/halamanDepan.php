@@ -19,7 +19,8 @@
                 aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto text-uppercase">
-                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#">Beranda</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js
+                        -scroll-trigger" href="#">Beranda</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#tentang">Tentang</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Hubungi Kami</a></li>
                     <li class="nav-item" ><a href="" class="nav-link" data-toggle="modal" data-target="#modalLoginForm">Login</a></li>
@@ -61,7 +62,7 @@
                                     <h4 class="subheading">Our Humble Beginnings</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius  sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
                                 </div>
                             </div>
                         </li>

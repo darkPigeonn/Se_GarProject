@@ -12,11 +12,7 @@
     </head>
     <body>
         
-        <div id="layoutSidenav">
-            <div id="layoutSidenav_nav">
-            </div>
-            <div id="layoutSidenav_content">
-                <main>
+
                     <div class="container-fluid">
                         
                         <div class="card mb-4">
@@ -82,10 +78,8 @@
                             </div>
                         </div>
                     </div>
-                </main>
-                
-            </div>
-        </div>
+              
+
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="<?php echo base_url ('assets/sbadmin/js/scripts.js')?>"></script>
