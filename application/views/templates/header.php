@@ -12,13 +12,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
 </head>
 
-<body style="background :linear-gradient(rgba(0,0,0,0,0.5), rgba(0,0,00.5));background-image: url(<?php echo base_url('assets/adminBaru/img/Garum.jpeg')?>);background-size: contain; background-repeat: no-repeat; background-position: center;position: relative;" >
+<body style="background :linear-gradient(rgba(0,0,0,0,0.5), rgba(0,0,00.5));background-image: url();background-size: 20px; background-repeat: no-repeat; background-position: center;position: relative;" >
 
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">SIA SEMINARI</a>
         <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
     </nav>
-    <div id="layoutSidenav">
+    <div id="layoutSidenav" >
         <div id="layoutSidenav_nav">
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">

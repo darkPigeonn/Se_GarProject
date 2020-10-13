@@ -30,7 +30,7 @@
         </div>
     </nav>
 
-   <header class="masthead" style="background-image : linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(<?php echo base_url('assets/adminBaru/img/sgar-1.jpg')?>);">
+   <header class="masthead" style="background-image : linear-gradient(rgba(0,0,0,.40), rgba(0,0,0,.40)), url(<?php echo base_url('assets/adminBaru/img/sgar-1.jpg')?>);">
         <div class="container">
             <div class="intro-text">
                 <div class="intro-heading text-uppercase"><span>SELAMAT DATANG</span></div>
@@ -48,7 +48,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="text-uppercase">Tentang Kami</h2>
-                    <h3 class="text-muted section-subheading">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="text-muted section-subheading">Masih Kosong</h3>
                 </div>
             </div>
             <div class="row">
@@ -58,11 +58,11 @@
                             <div class="timeline-image"><img class="rounded-circle img-fluid" src="<?php echo base_url ('assets/induko/img/about/1.jpg')?>"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>kosong</h4>
+                                    <h4 class="subheading">kosong</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius  sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">kosong</p>
                                 </div>
                             </div>
                         </li>
@@ -77,7 +77,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="text-uppercase section-heading">Hubungi Kami</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">kosong</h3>
                 </div>
             </div>
         </div>
