@@ -78,7 +78,7 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                     <button btn btn-primary bg-info border rounded border-dark" type="button" style="background-color: rgb(249,253,251)">EXPORT DATA</button>
+                                     <button class="btn btn-primary bg-info border rounded border-dark" type="button" style="background-color: rgb(249,253,251)">EXPORT DATA</button>
                                 </div>
                             </div>
                         </div>
