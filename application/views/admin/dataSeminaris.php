@@ -38,38 +38,15 @@
                                         </thead>
                                         
                                         <tbody>
+                                           <?php $i = 1;
+                                           foreach ($seminaris as $row) 
+                                            : ?>
                                             <tr>
-                                                <td>1</td>
-                                                <td>Atanasius</td>
-                                                <td>Jl. Paingan</td>
-                                                <td>Ngawi</td>
-                                                <td>2017</td>
-                                                <td>2019/2020</td>
-                                            </tr>
+                                            <td><?= $i ?></td>
+                                            <td><?php echo $row['nama']; ?></td>
                                             <tr>
-                                                <td>2</td>
-                                                <td>Ivanoel</td>
-                                                <td>Jl. Aingan</td>
-                                                <td>Ngawi</td>
-                                                <td>2016</td>
-                                                <td>2019/2020</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Albertus</td>
-                                                <td>Jl. Jalan</td>
-                                                <td>Palu</td>
-                                                <td>2019</td>
-                                                <td>2019/2020</td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>Bayu</td>
-                                                <td>Jl. Alan</td>
-                                                <td>Alu</td>
-                                                <td>2018</td>
-                                                <td>2019/2020</td>
-                                            </tr>
+                                            <?php $i++;
+                                            endforeach; ?>
                                         </tbody>
                                     </table>
                                     <div class="col text-center">

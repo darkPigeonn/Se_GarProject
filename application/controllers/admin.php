@@ -18,6 +18,10 @@ class admin extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	public function __construct() {
+		parent::__construct();
+		$this->load->model('admin_models');
+	}
 	public function index()
 	{
 		$this->load->view('halDepan/halamanDepan');
@@ -26,18 +30,19 @@ class admin extends CI_Controller {
 		$this->load->view('templates/header.php');
 		$this->load->view('admin/halamanutama.php');
 	}
-	public function viewdataSiswa()
-	{
-		$this->load->view('templates/header.php');
-		$this->load->view('admin/dataSiswa');
-	}
+	// public function viewdataSiswa()
+	// {
+	// 	$this->load->view('templates/header.php');
+	// 	$this->load->view('admin/dataSiswa');
+	// }
 	public function viewdataKeuangan(){
 		$this->load->view('templates/header.php');
 		$this->load->view('admin/dataKeuangan');
 	}
-	public function viewdataSeminaris(){
+	public function viewdataSiswa(){
+		$data['seminaris'] = $this->admin_models->getAllSeminaris();
 		$this->load->view('templates/header.php');
-		$this->load->view('admin/dataSeminaris');
+		$this->load->view('admin/dataSeminaris',$data);
 	}
 	public function laporan(){
 		$this->load->view('templates/header.php');
