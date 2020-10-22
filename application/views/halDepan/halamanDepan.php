@@ -92,23 +92,26 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
+                <form action="<?= base_url();?>admin/login" method="post">
                 <div class="modal-body mx-3">
                     <div class="md-form mb-5">
                         <i class="fas fa-user prefix grey-text"></i>
-                        <input type="text" id="form3" class="form-control validate">
+                        <input type="text" id="form3" name="userName" class="form-control validate">
                         <label data-error="wrong" data-success="right" for="defaultForm-email">Username</label>
                     </div>
                     <div class="md-form mb-4">
                         <i class="fas fa-lock prefix grey-text"></i>
-                        <input type="password" id="defaultForm-pass" class="form-control validate">
+                        <input type="password" id="defaultForm-pass" name="password" class="form-control validate">
                         <label data-error="wrong" data-success="right" for="defaultForm-pass">Password</label>
                     </div>
                 </div>
                 <div class="modal-footer d-flex justify-content-center">
                     <a class="small" href="password.html">Lupa Password?</a>
-                    <a class="btn btn-primary" href= '<?= base_url();?>admin/halut'">Login</a>
-                    <a class="btn btn-primary" href= '<?= base_url();?>admin/infoKeuangan'">Login Ortu</a>
+                    <button class="btn btn-primary" type="submit">Login</button> 
+                 <!--    <a class="btn btn-primary" href= '<?= base_url();?>userController'>Login Ortu</a> -->
                 </div>
+
+                </form>
             </div>
         </div>
     </div>

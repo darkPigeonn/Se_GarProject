@@ -51,5 +51,27 @@ class admin extends CI_Controller {
 	public function infoKeuangan(){
 		$this->load->view('ortu/infoKeuangan');
 	}
+
+
+	//cek login
+
+	public function login() {
+		//note alur login - cek semua kolom di isi (required)- ambil data masuk - cek data ada tidak - cek status admin / user
+		//jika admin di buka menu admin - jika user dibuka menu user
+
+		//contoh koding manual ini tanpa akses data base hanya melihat user name 
+		//jika admin dia masuk ke admin jika selain admin dia masuk ke tampilan ortu
+
+		//ambil data dari form
+		$username = $this->input->post('userName');
+		$pass = $this->input->post('password');
+
+		//cek userName 
+		if($username == "admin") {
+			redirect('admin/halut');
+		}else{
+			redirect('userController');
+		}
+	}
 }
 
