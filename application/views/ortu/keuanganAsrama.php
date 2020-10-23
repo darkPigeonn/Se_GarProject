@@ -1,5 +1,5 @@
  <div class="container">
-        <h2>LAPORAN KEUANGAN SISWA</h2>
+        <h2>LAPORAN KEUANGAN ASRAMA</h2>
         <div class="panel panel-default">
             <div class="panel-heading"><h3>NAMA : ATANASIUS</h3></div>
             <div class="panel-heading"><h3>NIS  : 175314060</h3></div>
@@ -20,14 +20,19 @@
                 </tbody>
             </table>
         </div>
+        <button class="btn btn-primary bg-info border rounded border-dark" data-toggle="modal" data-target="#modalHistory" type="button" style="font-family: 'Archivo Black', sans-serif;margin: 9px;background-color: rgb(245,247,246);">HISTORY&nbsp;</button>
+
     </div>
+
+
+    
 
     <div id="modalHistory" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">HISTORY PEMBAYARAN</h4>
+                    
                 </div>
                 <div class="modal-body">
                     <div class="card">
