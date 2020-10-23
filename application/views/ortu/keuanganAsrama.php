@@ -21,11 +21,8 @@
             </table>
         </div>
         <button class="btn btn-primary bg-info border rounded border-dark" data-toggle="modal" data-target="#modalHistory" type="button" style="font-family: 'Archivo Black', sans-serif;margin: 9px;background-color: rgb(245,247,246);">HISTORY&nbsp;</button>
-
     </div>
 
-
-    
 
     <div id="modalHistory" class="modal fade" role="dialog">
         <div class="modal-dialog">
