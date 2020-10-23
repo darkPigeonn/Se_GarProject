@@ -13,7 +13,7 @@ class userController extends CI_Controller
 
 	public function index() {
 		$this->load->view('templates/header_user');
-		$this->load->view('ortu/infoKeuangan');
+		$this->load->view('ortu/halamanDepanOrtu');
 	}
 }
  ?>
