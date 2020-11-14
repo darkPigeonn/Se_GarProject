@@ -1,17 +1,28 @@
-<body>
-    <div class="container">
-      <div class="container h-100">
-        <div class="row h-100 align-items-center justify-content-center text-center">
-           <div class="col-lg-10 align-self-end">
-            <h1 class="text-uppercase font-weight-bold">SELAMAT DATANG DI SIA SEMINARI GARUM</h1>
-            <hr class="divider my-4" />
-        </div>
-        <div class="col-lg-8 align-self-baseline">
-            <p class="text-black-75 font-weight-dark mb-5">Motto Seminari</p>
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Sistem Informasi Akademik Seminari Garum</title>
+    <link rel="stylesheet" href="<?php echo base_url().'assets/induko/bootstrap/css/bootstrap.min.css'?>">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
+    <link rel="stylesheet" href="<?php echo base_url().'assets/induko/fonts/font-awesome.min.css'?>">
+</head>
+<body>
+    <header class="masthead">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading text-uppercase"><p class="text-dark"><span>SELAMAT DATANG DI SIA SEMINARI GARUM</span></p></div>
+            </div>
         </div>
-    </div>
-</div>
-<br/>
+    </header>
+    <script src="<?php echo base_url('assets/induko/js/jquery.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/induko/bootstrap/js/bootstrap.min.js')?>"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="<?php echo base_url('assets/induko/js/agency.js')?>"></script>
 </body>
-</html>
+</html> 
