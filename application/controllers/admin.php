@@ -51,6 +51,10 @@ class admin extends CI_Controller {
 	public function infoKeuangan(){
 		$this->load->view('ortu/infoKeuangan');
 	}
+	public function detailProfil(){
+		$this->load->view('templates/header.php');
+		$this->load->view('admin/detailSiswa');
+	}
 
 
 	//cek login

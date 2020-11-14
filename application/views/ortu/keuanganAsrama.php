@@ -1,4 +1,6 @@
- <div class="container">
+  <body>
+      
+       <div class="container">
         <h2>LAPORAN KEUANGAN ASRAMA</h2>
         <div class="panel panel-default">
             <div class="panel-heading"><h3>NAMA : ATANASIUS</h3></div>
@@ -29,7 +31,7 @@
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
-                    
+
                 </div>
                 <div class="modal-body">
                     <div class="card">
@@ -68,17 +70,17 @@
                 </div>
             </div>
         </div>
+    
 
 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="<?php echo base_url ('assets/sbadmin/js/scripts.js')?>"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+    <script src="<?php echo base_url ('assets/sbadmin/demo/datatables-demo.js')?>"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="<?php echo base_url ('assets/sbadmin/js/scripts.js')?>"></script>
-        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
-        <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
-        <script src="<?php echo base_url ('assets/sbadmin/demo/datatables-demo.js')?>"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        
-    </body>
-    </html>
+</body>
+</html>

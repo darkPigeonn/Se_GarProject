@@ -41,7 +41,7 @@
                                         <tbody>
                                             <tr>
                                                 <td>1</td>
-                                                <td>Atanasius</td>
+                                                <td><a href='<?= base_url();?>admin/detailProfil'">Atanasius</a></td>
                                                 <td>September</td>
                                                 <td>Rp 3.000.000</td>
                                                <td>BELUM LUNAS</td>
