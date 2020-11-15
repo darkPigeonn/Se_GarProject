@@ -49,7 +49,7 @@
                                             </tr>
                                             <tr>
                                                 <td>2</td>
-                                                <td>Ivanoel</td>
+                                                <td><a href='<?= base_url();?>#'">Ivanoel</a></td>
                                                 <td>Agustus</td>
                                                 <td>Rp 3.500.000</td>
                                                 <td>BELUM LUNAS</td>
@@ -57,7 +57,7 @@
                                             </tr>
                                             <tr>
                                                 <td>3</td>
-                                                <td>Albertus</td>
+                                                <td><a href='<?= base_url();?>#'">Albertus</a></td>
                                                 <td>Agustus</td>
                                                 <td>Rp 4.000.000</td>
                                                 <td>BELUM LUNAS</td>
@@ -65,7 +65,7 @@
                                             </tr>
                                             <tr>
                                                 <td>4</td>
-                                                <td>Bayu</td>
+                                                <td><a href='<?= base_url();?>#'">Bayu</a></td>
                                                 <td>Oktober</td>
                                                 <td>Rp 4.500.000</td>
                                                 <td>BELUM LUNAS</td>

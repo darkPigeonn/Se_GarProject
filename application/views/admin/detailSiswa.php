@@ -13,20 +13,124 @@
 <body>
 
 
-    <div class="container-fluid">  
+    <div class="container-fluid" >  
         <div class="card mb-4">
             <div class="card-body">
-                <h1>DATA SISWA SEMINARI ST. VINCENTIUS GARUM</h1>
+                <h1>RINCIAN KEUANGAN SISWA SEMINARI ST. VINCENTIUS GARUM</h1>
             </div>
         </div>
-        <div class="card" style="width: 50rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nama :</h5>
-            <h5 class="card-title">Alamat :</h5>
-            <h5 class="card-title">Kelas :</h5>
-            <h5 class="card-title">Paroki :</h5>
 
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Nama   :</h5>
+            <h5 class="card-title">Kelas  :</h5>
+            <h5 class="card-title">Paroki :</h5>
+            <h5 class="card-title">Periode :</h5>
+        </div>
+
+
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan Juli</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan Agustus</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan September</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan Oktober</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan November</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan Desember</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan Januari</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan Februari</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan Maret</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan April</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan Mei</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card text-center">Bulan Juni</h5>
+                    <p class="card-text">Tanggal : </p>
+                    <p class="card-text">Nominal : </p>
+                </div>
+            </div>
         </div>
     </div>
 
