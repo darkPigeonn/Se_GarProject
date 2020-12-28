@@ -11,17 +11,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="nav navbar-nav ml-auto text-uppercase">
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll-trigger" href='<?= base_url();?>userController'>Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href='<?= base_url();?>userController/viewProfil'>Profil</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Keuangan</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href='<?=base_url();?>userController/viewUangAsrama'>Uang Asrama</a>
-                            <a class="dropdown-item" href='<?=base_url();?>userController/viewUangSaku'>Uang Saku</a>
-                        </div>
+                        <a class="nav-link js-scroll-trigger" href='<?= base_url();?>userController'>Kembali</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href='<?= base_url();?>admin'>Log Out</a>

@@ -55,14 +55,14 @@
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                     <tr>
-                                        <th>NO</th>
-                                        <th>TANGGAL</th>
-                                        <th>JUMLAH PEMBAYARAN</th>
-                                            <tr>
-                                                <td>UANG SAKU</td>
-                                                <td>SPP</td>
-                                            </tr>
-                                        <th>KETERANGAN</th>   
+                                        <th rowspan="2" data-valign="middle">NO</th>
+                                        <th data-field="id" rowspan="2" data-valign="middle">TANGGAL</th>
+                                        <th colspan="2">JUMLAH PEMBAYARAN</th>
+                                       <th rowspan="2" data-valign="middle">KETERANGAN</th>
+                                    </tr>
+                                    <tr>
+                                        <th data-field="saku">UANG SAKU</th>
+                                        <th data-fiels="spp">SPP</th>
                                     </tr>
                                 </thead>
 
@@ -75,30 +75,14 @@
                                         <td>BELUM LUNAS</td>
                                     </tr>
                                 </tbody>
+
                             </table>
-                            <button class="btn btn-primary bg-info border rounded border-dark" type="button" style="background-color: rgb(249,253,251)">RINCIAN UANG SAKU</button>
-                            <button class="btn btn-primary bg-info border rounded border-dark" type="button" style="background-color: rgb(249,253,251)">RINCIAN SPP</button>
+                            <a class="btn btn-primary bg-info border rounded border-dark" href='<?= base_url();?>userController/viewUangSaku'" type="button" style="background-color: rgb(249,253,251)">RINCIAN UANG SAKU</a>
+                            <a class="btn btn-primary bg-info border rounded border-dark" href='<?= base_url();?>userController/viewUangAsrama'" type="button" style="background-color: rgb(249,253,251)">RINCIAN SPP</a>
                         </div>
                     </div>
                 </div>
 
-<table class="table table-bordered">
-  <th colspan="3">Outer Table</th>
-  <tr>
-    <td>This is row one, column 1</td>
-    <td>This is row one, column 2</td>
-    <td>
-     <table class="table table-bordered">
-       <th colspan="3">Inner Table</th>
-       <tr>
-         <td>This is row one, column 1</td>
-         <td>This is row one, column 2</td>
-         <td>This is row one, column 3</td>
-       </tr>
-     </table>
-    </td>
-  </tr>
-</table>
 
                 <div class="card-footer">
                   <small class="text-muted">SEMINARI MENENGAH ST. VINCENTIUS A PAULO</small>
