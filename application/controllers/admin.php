@@ -71,11 +71,18 @@ class admin extends CI_Controller {
 		$pass = $this->input->post('password');
 
 		//cek userName 
-		if($username == "admin") {
-			redirect('admin/halut');
+
+		if(empty(trim($_POST["userName"]))){
+			$username = "Please enter username!";
 		}else{
-			redirect('userController');
+			$username = trim($_POST["userName"]);
 		}
+
+		// if($username == "admin") {
+		// 	redirect('admin/halut');
+		// }else{
+		// 	redirect('userController');
+		// }
 	}
 }
 
